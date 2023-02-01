@@ -1,6 +1,6 @@
 {
-    "name": "edge",
-    "description": "A Ghost theme",
+    "name": "yuurei",
+    "description": "Fork of Edge, a portfolio-oriented Ghost theme",
     "version": "1.0.0",
     "private": true,
     "engines": {
@@ -8,15 +8,23 @@
     },
     "license": "MIT",
     "author": {
-        "name": "Ghost Foundation",
-        "email": "hello@ghost.org",
-        "url": "https://ghost.org"
+        "name": "Thomas Lamant",
+        "email": "tom@tmlmt.com",
+        "url": "https://www.tmlmt.com"
     },
     "keywords": [
         "ghost",
         "theme",
         "ghost-theme"
     ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/tmlmt/yuurei"
+      },
+    "bugs": "https://github.com/tmlmt/yuurei/issues",
+    "contributors": [
+        "https://github.com/TryGhost/Edge/graphs/contributors"
+      ],
     "docs": "https://edge.ghost.io/about/",
     "config": {
         "posts_per_page": 10,
