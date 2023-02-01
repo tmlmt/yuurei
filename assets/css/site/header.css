@@ -4,3 +4,25 @@
     font-weight: 600;
     letter-spacing: -0.009em;
 }
+
+/* Social media icons */
+
+.gh-social {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.gh-social-link {
+    line-height: 0;
+    color: inherit;
+}
+
+.gh-social-link:hover {
+    opacity: 0.9;
+}
+
+.gh-social-link svg {
+    width: 18px;
+    height: 18px;
+}

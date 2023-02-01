@@ -33,6 +33,11 @@
                 {{navigation}}
                 {{#unless @site.members_enabled}}
                     {{#match @custom.navigation_layout "Stacked"}}
+                        <div class="gh-social">
+                            {{#if @custom.linkedin }}
+                                <a class="gh-social-link" href="{{ @custom.linkedin }}" title="Linked In" target="_blank" rel="me noopener">{{> "icons/linkedin"}}</a>
+                            {{/if}}
+                        </div>
                         <button class="gh-search gh-icon-btn" aria-label="Search this site" data-ghost-search>{{> "icons/search"}}</button>
                     {{/match}}
                 {{/unless}}
@@ -41,9 +46,19 @@
             <div class="gh-head-actions">
                 {{#unless @site.members_enabled}}
                     {{^match @custom.navigation_layout "Stacked"}}
+                        <div class="gh-social">
+                            {{#if @custom.linkedin }}
+                                <a class="gh-social-link" href="{{ @custom.linkedin }}" title="Linked In" target="_blank" rel="me noopener">{{> "icons/linkedin"}}</a>
+                            {{/if}}
+                        </div>
                         <button class="gh-search gh-icon-btn" aria-label="Search this site" data-ghost-search>{{> "icons/search"}}</button>
                     {{/match}}
                 {{else}}
+                    <div class="gh-social">
+                        {{#if @custom.linkedin }}
+                            <a class="gh-social-link" href="{{ @custom.linkedin }}" title="Linked In" target="_blank" rel="me noopener">{{> "icons/linkedin"}}</a>
+                        {{/if}}
+                    </div>
                     <button class="gh-search gh-icon-btn" aria-label="Search this site" data-ghost-search>{{> "icons/search"}}</button>
                     <div class="gh-head-members">
                         {{#unless @member}}
