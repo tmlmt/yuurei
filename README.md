@@ -1,13 +1,10 @@
-# Edge
+# Yuurei
 
-A visually aesthetic [Ghost](https://github.com/TryGhost/Ghost) theme designed for creative professionals. Showcase your works with minimal style and presentation.
+Fork of [Edge](https://github.com/TryGhost/Edge), a visually aesthetic [Ghost](https://github.com/TryGhost/Ghost) theme designed for creative professionals. _Yuurei_ means _Ghost_ in Japanese :)
 
-**Demo: https://edge.ghost.io**
+# Specific features compared to Edge
 
-# Instructions
-
-1. [Download this theme](https://github.com/TryGhost/Edge/archive/main.zip)
-2. Log into Ghost, and go to the `Design` settings area to upload the zip file
+- LinkedIn icon in the Header, available as a custom setting in Ghost admin
 
 # Development
 
@@ -29,10 +26,8 @@ The `zip` Gulp task packages the theme files into `dist/edge.zip`, which you can
 yarn zip
 ```
 
-# Contribution
-
-This repo is synced automatically with [TryGhost/Themes](https://github.com/TryGhost/Themes) monorepo. If you're looking to contribute or raise an issue, head over to the main repository [TryGhost/Themes](https://github.com/TryGhost/Themes) where our official themes are developed.
-
 # Copyright & License
 
-Copyright (c) 2013-2022 Ghost Foundation - Released under the [MIT license](LICENSE).
+Copyright (c) 2013-2023 Ghost Foundation
+Copyright (c) 2023 Thomas Lamant
+Released under the [MIT license](LICENSE)
