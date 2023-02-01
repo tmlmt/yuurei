@@ -28,6 +28,6 @@ yarn zip
 
 # Copyright & License
 
-Copyright (c) 2013-2023 Ghost Foundation
-Copyright (c) 2023 Thomas Lamant
+Copyright (c) 2013-2023 Ghost Foundation  
+Copyright (c) 2023 Thomas Lamant  
 Released under the [MIT license](LICENSE)
