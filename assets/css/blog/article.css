@@ -1,6 +1,19 @@
-.gh-article-image {
+.gh-article-image-wide, .gh-article-image-regular {
     margin: 0 0 64px;
 }
+
+.gh-article-image-wide {
+    grid-column: wide-start/wide-end;
+}
+
+.gh-article-image-regular {
+    grid-column: main-start/main-end;
+}
+
+.gh-article-image-wide img, .gh-article-image-regular img {
+    width: 100%;
+}
+
 
 .gh-article-title {
     font-size: 3.2rem;

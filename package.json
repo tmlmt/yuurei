@@ -80,6 +80,15 @@
             },
             "linkedin": {
                 "type": "text"
+            },
+            "feature_image_size": {
+                "type": "select",
+                "options": [
+                    "Wide",
+                    "Regular"
+                ],
+                "default": "Wide",
+                "group": "post"
             }
         }
     },
