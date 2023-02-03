@@ -4,7 +4,15 @@ Fork of [Edge](https://github.com/TryGhost/Edge), a visually aesthetic [Ghost](h
 
 # Specific features compared to Edge
 
-- LinkedIn icon in the Header, available as a custom setting in Ghost admin
+## Controlled by custom settings in Ghost admin
+
+- LinkedIn icon in the Header linking to LinkedIn profile
+- Possibility to select the width of the feature image in posts: wide or regular
+
+## Hard-coded stylistic choices
+
+- Very short line below title, no bottom margin: the first h2 becomes a sub-title
+- Gallary width contrained to main grid width
 
 # Development
 
