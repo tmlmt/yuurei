@@ -12,7 +12,7 @@ Fork of [Edge](https://github.com/TryGhost/Edge), a visually aesthetic [Ghost](h
 ## Hard-coded stylistic choices
 
 - Very short line below title, no bottom margin: the first h2 becomes a sub-title
-- Gallary width contrained to main grid width
+- Gallery width constrained to main grid width
 
 # Development
 
