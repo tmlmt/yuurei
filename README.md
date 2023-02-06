@@ -2,7 +2,7 @@
 
 Fork of [Edge](https://github.com/TryGhost/Edge), a visually aesthetic [Ghost](https://github.com/TryGhost/Ghost) theme designed for creative professionals. _Yuurei_ means _Ghost_ in Japanese :)
 
-![image](https://user-images.githubusercontent.com/10244927/216927093-e7b3f8c4-3ebf-4eb3-bd4a-6fc0afb98704.png)
+![image](https://user-images.githubusercontent.com/10244927/216927801-12cfac1b-185f-4c62-80cc-0b9a4922018d.png)
 
 # Specific features compared to Edge
 
