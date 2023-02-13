@@ -54,6 +54,8 @@
     }
 }
 
+/* Artistic choice in Yuurei: limit to grid of 3 grid-items in the width
+
 @media (min-width: 1350px) {
     .post-feed {
         max-width: 1320px;
@@ -65,3 +67,5 @@
         max-width: 1650px;
     }
 }
+
+*/
