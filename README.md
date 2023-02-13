@@ -16,6 +16,7 @@ Fork of [Edge](https://github.com/TryGhost/Edge), a visually aesthetic [Ghost](h
 - Very short line below title, no bottom margin: the first h2 becomes a sub-title
 - Gallery width constrained to main grid width
 - Max 3 grid items in the width
+- Justified paragraph text
 
 # Development
 
