@@ -6,6 +6,11 @@ Fork of [Edge](https://github.com/TryGhost/Edge), a visually aesthetic [Ghost](h
 
 # Specific features compared to Edge
 
+## Fixes
+
+- \[Mobile\] Compact footer
+- \[Mobile\] Do not generate a `<nav>` element when no secondary navigation items are set
+
 ## Controlled by custom settings in Ghost admin
 
 - LinkedIn icon in the Header linking to LinkedIn profile
